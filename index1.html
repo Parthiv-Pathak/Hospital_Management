@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="extra">
+        <aside>
+            <div class="top">
+            <div class="logo">
+                <img src="img2/logon2.png" alt="">
+            </div>
+            <div class="close" id="close-btn"><span class="material-symbols-outlined">
+                close
+                </span>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="index1.html"  class="active">
+                <span class="material-symbols-outlined">
+                    grid_view
+                    </span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="doctor.html" >
+                <i class="fa-solid fa-user-doctor"></i>
+                <h3>Doctors</h3>
+            </a>
+            <a href="patient.html">
+                <span class="material-symbols-outlined">recent_patient</span>
+                <h3>Patients</h3>
+            </a>
+            <a href="staff.html">
+                <span class="material-symbols-outlined">
+                    badge
+                    </span>
+                    
+                <h3>Staff</h3>
+            </a>
+            <a href="messages.html">
+                <span class="material-symbols-outlined">
+                    chat
+                    </span>
+                <h3>Messages</h3>
+                <span class="message-count">26</span>
+            </a>
+            <a href="appointments.html">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h3>Appointments</h3>
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-clock"></i>
+                <h3>Doctor Schedule</h3>
+            </a>
+            <a href="#">
+                <i class="fa-sharp fa-regular fa-circle-dot"></i>
+                <h3>Departments</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-file-invoice"></i>
+                <h3>Accounts</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-wallet"></i>
+                <h3>Payroll</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Calls</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+            </a>
+          
+            <a href="#">
+                <i class="fa-solid fa-cube"></i>
+                <h3>Assets</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-flag"></i>
+                <h3>Reports</h3>
+            </a>
+            <a href="#">
+                <i class="fa-duotone fa-file-invoice"></i>
+                <h3>Invoice</h3>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-gear"></i>
+                <h3>Settings</h3>
+            </a>
+            <a href="index.html">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <h3>Logout</h3>
+            </a>
+            
+        </div>
+            
+        </aside>
+
+        <main>
+            <h1>Hey , Parthiv</h1>
+            <p>Dashboard</p>
+                 
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-outlined">
+                        calendar_month
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Appointments</h3>
+                            <h1>450</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            
+                            </svg>
+                            <div class="number">
+                                <p>80%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted">vs last month</small>
+
+                </div>
+                <div class="expense">
+                    <span class="material-symbols-outlined">recent_patient</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>New Patients</h3>
+                            <h1>150</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            
+                            </svg>
+                            <div class="number">
+                                <p>65%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted">vs last month</small>
+
+                </div>
+                <div class="income">
+                    <span class="material-symbols-outlined">
+                        stacked_line_chart
+                        </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Earnings</h3>
+                            <h1>$30,500</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            
+                            </svg>
+                            <div class="number">
+                                <p>45%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="text-muted">vs last month</small>
+
+                </div>
+
+
+            </div>
+
+            <div class="Upcoming-Appointments">
+                <h2>Upcoming Appointments</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Patient Name</th>
+                            <th>Doctor </th>
+                            <th>Time</th>
+                            <th>Disease</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R0006</td>
+                            <td>Avinash Singh</td>
+                            <td>Parthiv Pathak</td>
+                            <td>02.03.2023 at 8.00 AM</td>
+                            <td class=primary>Fracture</td>
+                        </tr>
+                        <tr>
+                            <td>R0007</td>
+                            <td>Mohit Chaturvedi</td>
+                            <td>Samarth Pathak</td>
+                            <td>02.03.2023 at 10.00 AM</td>
+                            <td class="highlight"> Heart attack</td>
+                        </tr>
+                        <tr>
+                            <td>R0008</td>
+                            <td>Anil Sehgal</td>
+                            <td>Arun Prasad</td>
+                            <td>02.03.2023 at 11.00 AM</td>
+                            <td class=medium>Leg-Pain</td>
+                        </tr>
+                        <tr>
+                            <td>R0009</td>
+                            <td>Karan Gupta</td>
+                            <td>Arvind Agarwal</td>
+                            <td>03.03.2023 at 1.00 PM</td>
+                            <td class=primary>Headache</td>
+                        </tr>
+                        <tr>
+                            <td>R0010</td>
+                            <td>Rohit Singh</td>
+                            <td>Digvijay Patil</td>
+                            <td>03.05.2022 at 2.00 PM</td>
+                            <td class=medium>Root Canal</td>
+                        </tr>
+                        
+
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <div class="Upcoming-Appointments">
+                <h2>Recent Patients</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Patient Name</th>
+                            <th>Age </th>
+                            <th>Date of Birth</th>
+                            <th>Diagnosis</th>
+                             
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R0001</td>
+                            <td>Avinash Singh</td>
+                            <td>20</td>
+                            <td>01.03.2002 </td>
+                            <td class=primary>Fracture</td>
+                        </tr>
+                        <tr>
+                            <td>R0002</td>
+                            <td>Karan Gupta</td>
+                            <td>32</td>
+                            <td>21.10.1990 </td>
+                            <td class=primary>Headache</td>
+                        </tr>
+                        <tr>
+                            <td>R0003</td>
+                            <td>Rohit Singh</td>
+                            <td>29</td>
+                            <td>04.04.1993 </td>
+                            <td class=medium>Tooth-Pain</td>
+                        </tr>
+                        <tr>
+                            <td>R0004</td>
+                            <td>Anil Sehgal</td>
+                            <td>72</td>
+                            <td>26.08.1954 </td>
+                            <td class=highlight>Diagnostic</td>
+                        </tr>
+                        <tr>
+                            <td>R0005</td>
+                            <td>Raman Singh</td>
+                            <td>65</td>
+                            <td>22.05.1960 </td>
+                            <td class=medium>Stone</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                </button>
+                <div class="theme-toggler">
+
+                
+                    <span class="material-symbols-outlined active" >
+                        flare
+                        </span>
+                        <span class="material-symbols-outlined">
+                            dark_mode
+                            </span>
+                        
+                        
+                        
+                            
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p> Hey, <b>Parthiv</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/1.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>  Abix Joe</b>  A patient is just admitted in OT</p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                     
+                    </div>
+                    
+                        <div class="update">
+                            <div class="profile-photo">
+                                <img src="img/3.png" alt="">
+                            </div>
+                            <div class="message">
+                                <p><b>  Mariana Joseph</b> I will be on leave tommorrow</p>
+                                <small class="text-muted">3 Minutes Ago</small>
+                            </div>
+                        </div>
+                        
+                            <div class="update">
+                                <div class="profile-photo">
+                                    <img src="img/2.png" alt="">
+                                </div>
+                                <div class="message">
+                                    <p><b> Kevin Anderson </b> I released the patient from room-no 125</p>
+                                    <small class="text-muted">6 Minutes Ago</small>
+                                </div>
+                             
+                            </div>
+                </div>
+            </div>
+
+            <div class="departments">
+                <!-- <div class="item-img">
+                    <div>
+                        <img src="img/extra.png" alt="">
+                    </div>
+                </div> -->
+                <div class="item-img">
+                    <h2>Patient By Department</h2>
+                    <div class="img2">
+                        <img src="img/img-10.png" alt="">
+                    </div>
+                    <div class="symbols1">
+                    <p>🟢 Dental Care </p>
+                    <p>🔵 Neurology </p>
+                    
+                  
+                    </div>
+                    <div class="symbols2">
+                    <p>🔴 Orthopedic </p>
+                    <p>🟡 Gynocology  </p>
+                    </div>
+                  
+                </div>
+                <h2>Top Departments </h2>
+                <div class="item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            dentistry
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>DENTIST</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            ent
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ENT</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                     
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            cardiology
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>CARDIOLOGIST</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+19%</h5>
+                        
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            symptoms
+                            </span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>OPTHOMOLOGY</h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+15%</h5>
+                        
+                    </div>
+                </div>
+                <!-- <div class="item-img">
+                    <div>
+                        <img src="img/extra.png" alt="">
+                    </div>
+                </div> -->
+                
+            </div>
+
+      <div class="tagline"><p>Made With ❤️ By <span>Parthiv Pathak </span> </p></div>
+          
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+
+    
+    
+</body>
+</html>
